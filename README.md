@@ -135,20 +135,8 @@
                 <td>works like syle tags (&lt;h1 id="thing" class="things" <div>style:"color:yellow;"</div>&lt;/h1>)</td>
             </tr>
             <tr>
-                <td>
-                <td>
-            </tr>
-            <tr>
-                <td>
-                <td>
-            </tr>
-            <tr>
-                <td>
-                <td>
-            </tr>
-            <tr>
-                <td>
-                <td>
+                <td> Button, input, inframe
+                <td>Stuff
             </tr>
         </tbody>
     </table>
