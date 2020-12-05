@@ -2,10 +2,10 @@
 <html lang="en-us">
     <head>
         <meta charset="utf-8">
-        <title>Coding (html+css)</title>
+        <title>Coding (html+css) (SQL)</title>
         <style>
     body {
-        font-family:"Garamond", "Helvetica",monospace, "aerial";
+        font-family:"Garamond", "Helvetica",monospace, "aerial",sans-serif, fantasy, cursive, serif;
         background:black;
         color:white;
         width:70%;
@@ -61,12 +61,12 @@
             color:yellow;
             background:red;
             font-style:italic;
-            font-family:"Helvetica", cursive;
+            font-family:"Garamond", "Helvetica",monospace, "aerial",sans-serif, fantasy, cursive, serif;
         }
         </style>
     </head>
     <body>
-    <!--NOT COMPLETE YET-->
+    <!--SQL NOT STARTED YET-->
     <h4 class="LINK">Links</h4>
     <a class="LINK" id="up" href="https://en.wikipedia.org/wiki/Coding">coding wiki</a>
     <a class="LINK" id="upp" href="https://www.washington.edu/accesscomputing/webd2/student/unit1/module3/html_history.html#:~:text=The%20first%20version%20of%20HTML,HTML%20as%20an%20XML%20language.">history</a>
