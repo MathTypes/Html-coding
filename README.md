@@ -63,6 +63,10 @@
             font-style:italic;
             font-family:"Garamond", "Helvetica",monospace, "aerial",sans-serif, fantasy, cursive, serif;
         }
+        #sql {
+            color:yellow;
+            background:blue;
+        }
         </style>
     </head>
     <body>
@@ -73,6 +77,7 @@
     <a href="#basics">begenning/basics</a><br>
     <a href="#middle">middle/intermediete</a><br>
     <a href="#hard">hard/advanced</a>
+    <a href="#sql">sql/begginning</a>
     <p class="warning">NOT TO BE CONFUSED WITH C++<p>
     <h1 style="background:blue;">BASICS</h1>
     <p id="basics"> The first and most basic tag is the body tag. It is the simple tag containing all of your elements. (Please note that there is also &lt;!doctype html!>, &lt;head>, &lt;meta=????>, and &lt;title> tags)</p><br>
@@ -140,5 +145,11 @@
             </tr>
         </tbody>
     </table>
+    <h1>SQL(sequel)</h1>
+    <h3>SQL is a database coding langauge <br>BASICS</h3>
+    <h4 id="sql">sql's most basic things are the create and insert commands. (CREATE TABLE me (id INTEGER PRIMARY KEY, name TEXT, NUMERIC, INTEGER, REAL, NONE); INSERT INTO me (1, athlete);) <br>
+    Also, more basic things are or, and, as, and that weird thing. (SELECT name AS catogary FROM me WHERE id>"1" or name="atle" and id&lt54).<br>
+Third,  the SUM, PRODUCT........ ( SELECT *, SUM(id) AS cool_numbers FROM me GROUP by name)
+    </h4>
     </body>
 </html>
