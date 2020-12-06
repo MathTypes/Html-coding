@@ -2,10 +2,10 @@
 <html lang="en-us">
     <head>
         <meta charset="utf-8">
-        <title>Coding (html+css) (SQL)</title>
+        <title>Coding (html+css)</title>
         <style>
     body {
-        font-family:"Garamond", "Helvetica",monospace, "aerial",sans-serif, fantasy, cursive, serif;
+        font-family:"Garamond", "Helvetica",monospace, "aerial";
         background:black;
         color:white;
         width:70%;
@@ -61,9 +61,13 @@
             color:yellow;
             background:red;
             font-style:italic;
-            font-family:"Garamond", "Helvetica",monospace, "aerial",sans-serif, fantasy, cursive, serif;
+            font-family:"Helvetica", cursive;
         }
         #sql {
+            color:yellow;
+            background:blue;
+        }
+        .sql {
             color:yellow;
             background:blue;
         }
@@ -76,8 +80,10 @@
     <a class="LINK" id="upp" href="https://www.washington.edu/accesscomputing/webd2/student/unit1/module3/html_history.html#:~:text=The%20first%20version%20of%20HTML,HTML%20as%20an%20XML%20language.">history</a>
     <a href="#basics">begenning/basics</a><br>
     <a href="#middle">middle/intermediete</a><br>
-    <a href="#hard">hard/advanced</a>
-    <a href="#sql">sql/begginning</a>
+    <a href="#hard">hard/advanced</a><br>
+    <a href="#sql">sql/begginning</a><br>
+    <a href="#medium">sql/medium</a><br>
+    <a href="#HARD">sql/hard</a>
     <p class="warning">NOT TO BE CONFUSED WITH C++<p>
     <h1 style="background:blue;">BASICS</h1>
     <p id="basics"> The first and most basic tag is the body tag. It is the simple tag containing all of your elements. (Please note that there is also &lt;!doctype html!>, &lt;head>, &lt;meta=????>, and &lt;title> tags)</p><br>
@@ -145,11 +151,15 @@
             </tr>
         </tbody>
     </table>
-    <h1>SQL(sequel)</h1>
+        <h1>SQL(sequel)</h1>
     <h3>SQL is a database coding langauge <br>BASICS</h3>
     <h4 id="sql">sql's most basic things are the create and insert commands. (CREATE TABLE me (id INTEGER PRIMARY KEY, name TEXT, NUMERIC, INTEGER, REAL, NONE); INSERT INTO me (1, athlete);) <br>
-    Also, more basic things are or, and, as, and that weird thing. (SELECT name AS catogary FROM me WHERE id>"1" or name="atle" and id&lt54).<br>
-Third,  the SUM, PRODUCT........ ( SELECT *, SUM(id) AS cool_numbers FROM me GROUP by name)
+    Also, more basic things are or, and, as, and that weird thing. (SELECT name AS catogary FROM me WHERE id>"1" or name="atle" and id&lt;54).<br>
+Third,  the SUM, MIN, MAX, COUNT, AVG( SELECT *, SUM(id) AS cool_numbers FROM me GROUP by name), fourth is having instead of group by or order by.
     </h4>
+    <h3 class="sql" id="medium">MEDIUM</h3>
+    <h4 class="sql">The first medium item is</h4>
+    <h3 class="sql" id="HARD">HARD</h3>
+    <h4 class="sql">The first hard catagory one is case. I tried, but it always said syntax error so just look here</h4> <a href="https://www.khanacademy.org/computer-programming/or-go-to-httpswwwkhanacademyorgcomputingcomputer-programmingsqlmore-advanced-sql-queriesptcalculating-results-with-case/5047120965353472">sqlye</a>
     </body>
 </html>
