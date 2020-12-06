@@ -7,15 +7,5 @@ students. All of this information is from khan acadamy, , and . This updates aro
 (every day on most weeks, maybe not on holiday and weekends, maybe not on breaks as in spring, summer, fall, and winter breaks
 , maybe not on some weekdays). 
 Websites used and their links 
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Stuff</title>
-    </head>
-    <body>
-  <a href="https://www.khanacademy.org/">https://www.khanacademy.org/</a>
-  <a href="https://www.codecademy.com/welcome/find-a-course">https://www.codecademy.com/welcome/find-a-course</a>
-
-    </body>
-</html>
+"https://www.khanacademy.org/"
+"https://www.codecademy.com/welcome/find-a-course"
