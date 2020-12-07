@@ -1,6 +1,7 @@
 This is about teaching things about codingto begginners and is ment to give a preveiw of the entire coding thing. This right now
 only has html and sql (Hyper Text Markup Language and SeQuaL), but at the end I am planning on adding python, c++, and java/webe
 or something script/javascript. 
+Below will be added in (1) days.
 <!DOCTYPE html>
 <html lang="en-us">
     <head>
@@ -161,7 +162,12 @@ or something script/javascript.
 Third,  the SUM, MIN, MAX, COUNT, AVG( SELECT *, SUM(id) AS cool_numbers FROM me GROUP by name), fourth is having instead of group by or order by.
     </h4>
     <h3 class="sql" id="medium">MEDIUM</h3>
-    <h4 class="sql">The first medium item is</h4>
+<h4 class="sql">The first medium catagory text/command is the types of ways to JOIN. 1. (SELECT * FROM student_grades, students;) A cross join. 
+<br>2. (SELECT * FROM student_grades, students
+    WHERE student_grades.student_id = students.id;) A implict inner join<br>
+3. (SELECT students.first_name, students.last_name, students.email, student_grades.test, student_grades.grade FROM students
+    JOIN student_grades) A expilit inner join-JOIN
+    </h4>
     <h3 class="sql" id="HARD">HARD</h3>
     <h4 class="sql">The first hard catagory one is case. I tried, but it always said syntax error so just look here</h4> <a href="https://www.khanacademy.org/computer-programming/or-go-to-httpswwwkhanacademyorgcomputingcomputer-programmingsqlmore-advanced-sql-queriesptcalculating-results-with-case/5047120965353472">sqlye</a>
     </body>
