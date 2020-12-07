@@ -9,7 +9,7 @@ Below will be added in (1) days.
         <title>Coding (html+css)</title>
         <style>
     body {
-        font-family:"Garamond", "Helvetica",monospace, "aerial";
+        font-family:"Helvetica",monospace, "aerial";
         background:black;
         color:white;
         width:70%;
@@ -169,6 +169,7 @@ Third,  the SUM, MIN, MAX, COUNT, AVG( SELECT *, SUM(id) AS cool_numbers FROM me
     JOIN student_grades) A expilit inner join-JOIN
     </h4>
     <h3 class="sql" id="HARD">HARD</h3>
-    <h4 class="sql">The first hard catagory one is case. I tried, but it always said syntax error so just look here</h4> <a href="https://www.khanacademy.org/computer-programming/or-go-to-httpswwwkhanacademyorgcomputingcomputer-programmingsqlmore-advanced-sql-queriesptcalculating-results-with-case/5047120965353472">sqlye</a>
+    <h4 class="sql">The first hard catagory one is case. I tried, but it always said syntax error so just look here or just look at this video </h4> <a href="https://www.khanacademy.org/computing/computer-programming/sql/more-advanced-sql-queries/pt/calculating-results-with-case">VIDEO</a>
+    <br><a href="https://www.khanacademy.org/computer-programming/or-go-to-httpswwwkhanacademyorgcomputingcomputer-programmingsqlmore-advanced-sql-queriesptcalculating-results-with-case/5047120965353472">sqlye</a>
     </body>
 </html>
