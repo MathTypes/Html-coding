@@ -1,7 +1,7 @@
 This is about teaching things about codingto begginners and is ment to give a preveiw of the entire coding thing. This right now
 only has html and sql (Hyper Text Markup Language and SeQuaL), but at the end I am planning on adding python, c++, and java/webe
 or something script/javascript. 
-Below will be added in (1) days.
+Below will be added in (1/6) days.
 <!DOCTYPE html>
 <html lang="en-us">
     <head>
@@ -15,6 +15,10 @@ Below will be added in (1) days.
         width:70%;
     }
         p.warning {
+            color:red;
+            background:orange;
+        }
+        .warning {
             color:red;
             background:orange;
         }
@@ -167,7 +171,16 @@ Third,  the SUM, MIN, MAX, COUNT, AVG( SELECT *, SUM(id) AS cool_numbers FROM me
     WHERE student_grades.student_id = students.id;) A implict inner join<br>
 3. (SELECT students.first_name, students.last_name, students.email, student_grades.test, student_grades.grade FROM students
     JOIN student_grades) A expilit inner join-JOIN
+    <br> The second medium command is the LEFT OUTER JOIN and the RIGHT OUTER JOIN and the FULL OUTER JOIN. 
+    <br>The left outer join joins the two tables like reagular, but if they aren't matching, it will add the one on the left. The other ones are the same but in diffrent directions. (SELECT students.first_name, students.last_name, student_projects.title
+    FROM students
+    LEFT OUTER JOIN student_projects
+    ON students.id = student_projects.student_id;
+    
+) 
     </h4>
+    <h4 class="warning">RIGHT OUTER JOIN AND FULL OUTER JOIN DON'T EXSIT ON KHAN</h4>
+    <a href="https://www.khanacademy.org/computing/computer-programming/sql/relational-queries-in-sql/pt/joining-related-tables-with-left-outer-joins">If you didn't understand left outer join</a>
     <h3 class="sql" id="HARD">HARD</h3>
     <h4 class="sql">The first hard catagory one is case. I tried, but it always said syntax error so just look here or just look at this video </h4> <a href="https://www.khanacademy.org/computing/computer-programming/sql/more-advanced-sql-queries/pt/calculating-results-with-case">VIDEO</a>
     <br><a href="https://www.khanacademy.org/computer-programming/or-go-to-httpswwwkhanacademyorgcomputingcomputer-programmingsqlmore-advanced-sql-queriesptcalculating-results-with-case/5047120965353472">sqlye</a>
