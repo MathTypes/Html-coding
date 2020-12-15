@@ -2,6 +2,7 @@ This is about teaching things about codingto begginners and is ment to give a pr
 only has html and sql (Hyper Text Markup Language and SeQuaL), but at the end I am planning on adding python, c++, and java/webe
 or something script/javascript. 
 Below will be added in () days.
+Please note I will not be on from 11/17 to the end of winter break.
 <!DOCTYPE html>
 <html lang="en-us">
     <head>
@@ -15,10 +16,6 @@ Below will be added in () days.
         width:70%;
     }
         p.warning {
-            color:red;
-            background:orange;
-        }
-        .warning {
             color:red;
             background:orange;
         }
@@ -170,23 +167,9 @@ Third,  the SUM, MIN, MAX, COUNT, AVG( SELECT *, SUM(id) AS cool_numbers FROM me
 <br>2. (SELECT * FROM student_grades, students
     WHERE student_grades.student_id = students.id;) A implict inner join<br>
 3. (SELECT students.first_name, students.last_name, students.email, student_grades.test, student_grades.grade FROM students
-    JOIN student_grades) A expilit inner join-JOIN
-    <br> The second medium command is the LEFT OUTER JOIN and the RIGHT OUTER JOIN and the FULL OUTER JOIN. 
-    <br>The left outer join joins the two tables like reagular, but if they aren't matching, it will add the one on the left. The other ones are the same but in diffrent directions. (SELECT students.first_name, students.last_name, student_projects.title
-    FROM students
-    LEFT OUTER JOIN student_projects
-    ON students.id = student_projects.student_id;
-    <br>Theres also double joins, ......... where you just do a join after a join  like this (SELECT * FROM me JOIN you ON me.yes = you.no 
-    JOIN every_one ON me.no = every_one.every)
-    Theres also a self join, (SELECT like.me me.like FROM me JOIN me like ON me.like= like.me_opp)<br>
+    JOIN student_grades) A expilit inner join-JOIN <br> Another example of a medium command is the delete and update command. They do what they sound like.
     </h4>
-    <h4 class="warning">RIGHT OUTER JOIN AND FULL OUTER JOIN DON'T EXSIT ON KHAN</h4>
-    <a href="https://www.khanacademy.org/computing/computer-programming/sql/relational-queries-in-sql/pt/joining-related-tables-with-left-outer-joins">If you didn't understand left outer join</a><br>
-    <a href="https://www.khanacademy.org/computing/computer-programming/sql/relational-queries-in-sql/pt/joining-tables-to-themselves-with-self-joins">JOIN SELF</a>
     <h3 class="sql" id="HARD">HARD</h3>
-    <h4 class="sql">The first hard catagory one is case. I tried, but it always said syntax error so just look here or just look at this video </h4> <a href="https://www.khanacademy.org/computing/computer-programming/sql/more-advanced-sql-queries/pt/calculating-results-with-case">VIDEO</a>
-    <br><a href="https://www.khanacademy.org/computer-programming/or-go-to-httpswwwkhanacademyorgcomputingcomputer-programmingsqlmore-advanced-sql-queriesptcalculating-results-with-case/5047120965353472">sqlye</a>
-    <br><a href="https://www.khanacademy.org/computer-programming/new-sql-script/6544842109173760">My own coding sql script</a>
-    <br><a href="https://www.khanacademy.org/computer-programming/spin-off-of-math/5280237571489792">My first HTML script</a>
+    <h4 class="sql">The first hard catagory one is case. I tried, but it always said syntax error so just look here</h4> <a href="https://www.khanacademy.org/computer-programming/or-go-to-httpswwwkhanacademyorgcomputingcomputer-programmingsqlmore-advanced-sql-queriesptcalculating-results-with-case/5047120965353472">sqlye</a>
     </body>
 </html>
