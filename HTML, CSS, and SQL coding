@@ -34,7 +34,7 @@
         }
         .LINK {
             position:fixed;
-            margin-left:380px;
+            left:820px;
             background:rgb(240, 9, 102);
         }
         #up {
@@ -74,7 +74,7 @@
         </style>
     </head>
     <body>
-    <!--SQL NOT STARTED YET-->
+    <!--SQL NOT COMPLETED YET-->
     <h4 class="LINK">Links</h4>
     <a class="LINK" id="up" href="https://en.wikipedia.org/wiki/Coding">coding wiki</a>
     <a class="LINK" id="upp" href="https://www.washington.edu/accesscomputing/webd2/student/unit1/module3/html_history.html#:~:text=The%20first%20version%20of%20HTML,HTML%20as%20an%20XML%20language.">history</a>
