@@ -34,14 +34,14 @@
         }
         .LINK {
             position:fixed;
-            margin-left:340px;
+            margin-left:380px;
             background:rgb(240, 9, 102);
         }
         #up {
             top:50px;
         }
         #upp {
-            top:90px;
+            top:70px;
         }
         #hard {
             color:white;
