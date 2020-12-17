@@ -38,8 +38,8 @@
             position:fixed;
             left:1070px;
             background:rgb(240, 9, 102);
-            height: 5em;
             text-align: center;
+            height: 3%;
         }
         #up {
             top:50px;
