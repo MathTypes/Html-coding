@@ -8,7 +8,9 @@
         font-family:"Helvetica",monospace, "aerial";
         background:black;
         color:white;
-        width:70%;
+        width:90%;
+        text-align: center;
+        height: 100%;
     }
         p.warning {
             color:red;
@@ -34,8 +36,10 @@
         }
         .LINK {
             position:fixed;
-            left:820px;
+            left:1070px;
             background:rgb(240, 9, 102);
+            height: 5em;
+            text-align: center;
         }
         #up {
             top:50px;
