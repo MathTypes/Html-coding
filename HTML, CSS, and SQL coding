@@ -19,6 +19,12 @@
         h1, h2, h3 {
             color:brown;
         }
+        .news {
+            position:fixed;
+            color:yellow;
+            background:rgb(240, 9, 9);
+            left:1045px;
+        }
         #middle {
             color:rgb(247, 5, 247);
         }
@@ -88,6 +94,12 @@
     <a href="#sql">sql/begginning</a><br>
     <a href="#medium">sql/medium</a><br>
     <a href="#HARD">sql/hard</a>
+    <br><a href="#basics" class="news">begenning/basics</a><br>
+    <a href="#middle" class="news">middle/intermediete</a><br>
+    <a href="#hard" class="news">hard/advanced</a><br>
+    <a href="#sql" class="news">sql/begginning</a><br>
+    <a href="#medium" class="news">sql/medium</a><br>
+    <a href="#HARD" class="news">sql/hard</a>
     <p class="warning">NOT TO BE CONFUSED WITH C++<p>
     <h1 style="background:blue;">BASICS</h1>
     <p id="basics"> The first and most basic tag is the body tag. It is the simple tag containing all of your elements. (Please note that there is also &lt;!doctype html!>, &lt;head>, &lt;meta=????>, and &lt;title> tags)</p><br>
@@ -172,3 +184,4 @@ Third,  the SUM, MIN, MAX, COUNT, AVG( SELECT *, SUM(id) AS cool_numbers FROM me
     <h4 class="sql">The first hard catagory one is case. I tried, but it always said syntax error so just look here</h4> <a href="https://www.khanacademy.org/computer-programming/or-go-to-httpswwwkhanacademyorgcomputingcomputer-programmingsqlmore-advanced-sql-queriesptcalculating-results-with-case/5047120965353472">sqlye</a>
     </body>
 </html>
+
