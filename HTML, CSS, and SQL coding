@@ -179,6 +179,8 @@ Third,  the SUM, MIN, MAX, COUNT, AVG( SELECT *, SUM(id) AS cool_numbers FROM me
     WHERE student_grades.student_id = students.id;) A implict inner join<br>
 3. (SELECT students.first_name, students.last_name, students.email, student_grades.test, student_grades.grade FROM students
     JOIN student_grades) A expilit inner join-JOIN <br> Another example of a medium command is the delete and update command. They do what they sound like.
+    There's also the ALTER command that alters your code after you use it (ALTER TABLE me ADD gene TEXT;)
+
     </h4>
     <h3 class="sql" id="HARD">HARD</h3>
     <h4 class="sql">The first hard catagory one is case. I tried, but it always said syntax error so just look here</h4> <a href="https://www.khanacademy.org/computer-programming/or-go-to-httpswwwkhanacademyorgcomputingcomputer-programmingsqlmore-advanced-sql-queriesptcalculating-results-with-case/5047120965353472">sqlye</a>
