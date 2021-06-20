@@ -1,8 +1,7 @@
-This is about teaching things about codingto begginners and is ment to give a preveiw of the entire coding thing. This right now
+This is about teaching things about coding to begginners and is ment to give a preveiw of the entire coding thing. This right now
 only has html and sql (Hyper Text Markup Language and SeQuaL), but at the end I am planning on adding python, c++, and java/webe
 or something script/javascript. 
-Below will be added in () days.
-Please note I will not be on from 11/17 to the end of winter break.
+Below will be added in (0) days.
 <!DOCTYPE html>
 <html lang="en-us">
     <head>
@@ -13,14 +12,26 @@ Please note I will not be on from 11/17 to the end of winter break.
         font-family:"Helvetica",monospace, "aerial";
         background:black;
         color:white;
-        width:70%;
+        width:90%;
+        text-align: center;
+        height: 100%;
     }
+        .warning {
+            color:red;
+            background:white;
+        }
         p.warning {
             color:red;
             background:orange;
         }
         h1, h2, h3 {
             color:brown;
+        }
+        .news {
+            position:fixed;
+            color:yellow;
+            background:rgb(240, 9, 9);
+            left:1045px;
         }
         #middle {
             color:rgb(247, 5, 247);
@@ -39,14 +50,16 @@ Please note I will not be on from 11/17 to the end of winter break.
         }
         .LINK {
             position:fixed;
-            margin-left:340px;
+            left:1070px;
             background:rgb(240, 9, 102);
+            text-align: center;
+            height: 3%;
         }
         #up {
             top:50px;
         }
         #upp {
-            top:90px;
+            top:70px;
         }
         #hard {
             color:white;
@@ -79,8 +92,8 @@ Please note I will not be on from 11/17 to the end of winter break.
         </style>
     </head>
     <body>
-    <!--SQL NOT STARTED YET-->
-    <h4 class="LINK">Links</h4>
+    <h4 class="warning">SQL NOT COMPLETED YET</h4>
+    <p>Links:</p>
     <a class="LINK" id="up" href="https://en.wikipedia.org/wiki/Coding">coding wiki</a>
     <a class="LINK" id="upp" href="https://www.washington.edu/accesscomputing/webd2/student/unit1/module3/html_history.html#:~:text=The%20first%20version%20of%20HTML,HTML%20as%20an%20XML%20language.">history</a>
     <a href="#basics">begenning/basics</a><br>
@@ -89,10 +102,17 @@ Please note I will not be on from 11/17 to the end of winter break.
     <a href="#sql">sql/begginning</a><br>
     <a href="#medium">sql/medium</a><br>
     <a href="#HARD">sql/hard</a>
+    <br><a href="#basics" class="news">begenning/basics</a><br>
+    <a href="#middle" class="news">middle/intermediete</a><br>
+    <a href="#hard" class="news">hard/advanced</a><br>
+    <a href="#sql" class="news">sql/begginning</a><br>
+    <a href="#medium" class="news">sql/medium</a><br>
+    <a href="#HARD" class="news">sql/hard</a>
     <p class="warning">NOT TO BE CONFUSED WITH C++<p>
+    <p class="warning">NOTE THAT HTML AND CSS ARE IN THE SAME SECTION</p>
     <h1 style="background:blue;">BASICS</h1>
     <p id="basics"> The first and most basic tag is the body tag. It is the simple tag containing all of your elements. (Please note that there is also &lt;!doctype html!>, &lt;head>, &lt;meta=????>, and &lt;title> tags)</p><br>
-    <p>All other basic tools are the comment(&lt;!--???-->), the h1-6, the p(&lt;p>, the break(&lt;br>), and the (/(whatever tag you're using))(pictures are img).</p><!--like this--><h1>h1</h1>
+    <p>All other basic tools are the comment(&lt;!--???-->), the h1-6, the &lt;p>, the &lt;br>, and the (/(whatever tag you're using))(pictures are img).</p><!--like this--><h1>h1</h1>
     <h2>h2</h2>
     <h3>h3</h3>
     <h4>h4</h4>
@@ -167,7 +187,7 @@ Third,  the SUM, MIN, MAX, COUNT, AVG( SELECT *, SUM(id) AS cool_numbers FROM me
 <br>2. (SELECT * FROM student_grades, students
     WHERE student_grades.student_id = students.id;) A implict inner join<br>
 3. (SELECT students.first_name, students.last_name, students.email, student_grades.test, student_grades.grade FROM students
-    JOIN student_grades) A expilit inner join-JOIN <br> Another example of a medium command is the delete and update command. They do what they sound like.
+    JOIN student_grades) A expilit inner join-JOIN <br> Another example of a medium command is the delete and update command. They do what they sound like. The alter command also alter's data but doesn't need for you to reload a page.
     </h4>
     <h3 class="sql" id="HARD">HARD</h3>
     <h4 class="sql">The first hard catagory one is case. I tried, but it always said syntax error so just look here</h4> <a href="https://www.khanacademy.org/computer-programming/or-go-to-httpswwwkhanacademyorgcomputingcomputer-programmingsqlmore-advanced-sql-queriesptcalculating-results-with-case/5047120965353472">sqlye</a>
